@@ -1,6 +1,7 @@
 
 Создание ордера
-```curl -X POST http://localhost:9090/orders \
+```
+curl -X POST http://localhost:9090/orders \
 -H "Content-Type: application/json" \
 -d '{
 "order_uid": "123",
